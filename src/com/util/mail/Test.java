@@ -5,13 +5,13 @@ public class Test {
         //这个类主要是设置邮件  
      MailSenderInfo mailInfo = new MailSenderInfo();
         //服务器与端口的对应关系：  smtp.qq.com -> 587    smtp.163.com -> 25
-     mailInfo.setMailServerHost("smtp.163.com"); //发送方的邮件服务器地址  
-     mailInfo.setMailServerPort("25");   //发送方SMTP服务器端口
+     mailInfo.setMailServerHost("smtp.qq.com"); //发送方的邮件服务器地址  
+     mailInfo.setMailServerPort("587");   //发送方SMTP服务器端口
      mailInfo.setValidate(true);   //设置SMTP服务器需要身份验证
-     mailInfo.setUserName("18316022546@163.com");  //发送方邮箱账号 
-     mailInfo.setPassword("xxxxxxxxxxxx");  //发送方邮箱密码   
-     mailInfo.setFromAddress("18316022546@163.com");   //发送方邮箱地址
-     mailInfo.setToAddress("dgh18316022546@sina.com");    //接收方邮箱地址
+     mailInfo.setUserName("gjd0564@vip.qq.com");  //发送方邮箱账号 
+     mailInfo.setPassword("ojyujhhgylitbegj");  //发送方邮箱密码   
+     mailInfo.setFromAddress("837080234@qq.com");   //发送方邮箱地址
+     mailInfo.setToAddress("gjd0564@sina.com");    //接收方邮箱地址
      mailInfo.setSubject("java mail发送邮件的测试");   //邮件标题
      mailInfo.setContent("这是我在测试用java mail来发邮件");    //邮件内容 
      
